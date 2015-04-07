@@ -1,0 +1,36 @@
+sc_node_struct -> bubny;;
+
+bubny => nrel_main_idtf:
+	[Бубны]
+	(*
+	<- lang_ru;;
+	*);
+	[Bubny]
+	(*
+	<- lang_en;;
+	*);;
+bubny => nrel_region: minsk_region;;
+
+bubny => nrel_district: vilejka_district;;
+
+bubny => nrel_state: residential;;
+
+bubny =>  nrel_politic: no_administrative_value;;
+
+bubny => nrel_population: [272];;
+
+bubny => nrel_postcode: [222460];;
+
+bubny => nrel_code_soato:[6213817011];;
+
+bubny <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://church195_a77.png";;
+			*);; 
+	*);; 

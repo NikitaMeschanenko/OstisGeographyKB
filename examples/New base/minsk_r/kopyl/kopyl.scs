@@ -1,0 +1,39 @@
+sc_node_struct -> kopyl;;
+
+kopyl => nrel_main_idtf:
+	[Копыль]
+	(*
+	<- lang_ru;;
+	*);
+	[Kopyl]
+	(*
+	<- lang_en;;
+	*);;
+
+kopyl => nrel_region: minsk_region;;
+
+kopyl => nrel_district: kopyl_district;;
+
+kopyl => nrel_state: residential;;
+
+kopyl => nrel_politic: district_center;;
+
+kopyl => nrel_date: [1274];;
+
+kopyl => nrel_population: [10500];;
+
+kopyl => nrel_postcode: [223927];;
+
+kopyl => nrel_code_soato:[6228501000];;
+
+kopyl <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://kopyl_1.png";;
+			*);; 
+	*);; 

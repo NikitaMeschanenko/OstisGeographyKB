@@ -1,0 +1,41 @@
+sc_node_struct -> starye_dorogi;;
+
+starye_dorogi  => nrel_main_idtf:
+	[Старые Дороги]
+	(*
+	<- lang_ru;;
+	*);
+	[Starye Dorogi]
+	(*
+	<- lang_en;;
+	*);;
+
+starye_dorogi => nrel_region: minsk_region;;
+
+starye_dorogi => nrel_district: starye_dorogi_district;;
+
+starye_dorogi => nrel_state: residential;;
+
+starye_dorogi => nrel_politic: district_center;;
+
+starye_dorogi => nrel_date: [1524];;
+
+starye_dorogi => nrel_population: [11100];;
+
+starye_dorogi => nrel_postcode: [222932];;
+
+starye_dorogi => nrel_code_soato: [6252501000];;
+
+starye_dorogi => nrel_square: [1,4];;
+
+starye_dorogi <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://IMG_7143.png";;
+			*);; 
+	*);; 

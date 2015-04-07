@@ -1,0 +1,11 @@
+nrel_height <- sc_node_norole_relation;;
+nrel_height => nrel_main_idtf:
+[высота*] (* <- lang_ru;; *);;
+nrel_height => nrel_main_idtf:
+[height*] (* <- lang_en;; *);;
+
+nrel_meaning <- sc_node_norole_relation;;
+nrel_meaning => nrel_main_idtf:
+[значение*] (* <- lang_ru;; *);;
+nrel_meaning => nrel_main_idtf:
+[meaning*] (* <- lang_en;; *);;

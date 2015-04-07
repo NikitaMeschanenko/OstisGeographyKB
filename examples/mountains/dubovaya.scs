@@ -1,0 +1,22 @@
+sc_node_struct -> dubovaya_mountain;;
+
+dubovaya_mountain => nrel_main_idtf:
+[Дубовая гора]
+	(* 
+	<- lang_ru;; 
+	*);
+[dubovaya mountain] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+mountain -> dubovaya_mountain;;
+
+dubovaya_mountain => nrel_region: minsk_region;;
+
+dubovaya_mountain => nrel_district: stolbtsovsk_district;;
+
+dubovaya_mountain => nrel_height : [340];;
+
+dubovaya_mountain => nrel_text_discription: 
+[Гора находится на опушке леса, ее восточный склон в значительной степени срыт в результате добычи песка для подсыпки близлежащей дороги. На вершине горы Дубовая имеется металлический геодезический триангулятор, что существенно облегчает ее идентификацию.];;

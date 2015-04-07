@@ -1,0 +1,39 @@
+sc_node_struct -> vilejka;;
+
+vilejka => nrel_main_idtf:
+	[Вилейка]
+	(*
+	<- lang_ru;;
+	*);
+	[Vilejka]
+	(*
+	<- lang_en;;
+	*);;
+
+vilejka => nrel_region: minsk_region;;
+
+vilejka => nrel_district: vilejka_district;;
+
+vilejka => nrel_state: residential;;
+
+vilejka => nrel_politic: district_center;;
+
+vilejka => nrel_date: [1460];;
+
+vilejka => nrel_population: [26700];;
+
+vilejka => nrel_postcode: [222410];;
+
+vilejka => nrel_code_soato: [2221808021];;
+
+vilejka <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://vilejka_1.png";;
+			*);; 
+	*);; 

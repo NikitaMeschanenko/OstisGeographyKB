@@ -1,0 +1,31 @@
+sc_node_struct -> minsk_region;;
+
+minsk_region => nrel_population: [1558000];;
+
+minsk_region => nrel_code_soato: [6000000000];;
+
+minsk_region <= nrel_politico_administrative_division:
+	{
+	berezino_district;
+	borisov_district;
+	vilejka_district;
+	volojin_district;
+	dzerjinsk_district;
+	kletsk_district;
+	kopyl_district;
+	krupki_district;
+	logoisk_district;
+	ljuban_district;
+	minsk_district;
+	molodechno_district;
+	myadel_district;
+	nesvizh_district;
+	puhovichi_district;
+	slutsk_district;
+	smolevichi_district;
+	soligorsk_district;
+	starye_dorogi_district;
+	stolbtsovsk_district;
+	uzdenskiy_district;
+	chervenskiy_district
+	};;

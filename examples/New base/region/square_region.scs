@@ -1,0 +1,94 @@
+berezino_district => nrel_square: [1940,34];;
+berezino_district => nrel_population: [24000];;
+
+borisov_district => nrel_square: [2987,6];;
+borisov_district => nrel_population: [185257];;
+
+vilejka_district => nrel_square: [2453,8];;
+vilejka_district => nrel_population: [49700];;
+
+volojin_district => nrel_square: [1916,78];;
+volojin_district => nrel_population: [37543];;
+
+dzerjinsk_district => nrel_square: [1200];;
+dzerjinsk_district => nrel_population: [61252];;
+
+kletsk_district => nrel_square: [974];;
+kletsk_district => nrel_population: [32302];;
+
+kopyl_district => nrel_square: [1600];;
+kopyl_district => nrel_population: [32 818];;
+
+krupki_district => nrel_square: [2138];;
+krupki_district => nrel_population: [26522];;
+
+logoisk_district => nrel_square: [2400];;
+logoisk_district => nrel_population: [38400];;
+
+ljuban_district => nrel_square: [1900];;
+ljuban_district => nrel_population: [35400];;
+
+minsk_district => nrel_square: [2000];;
+minsk_district => nrel_population: [166569];;
+
+molodechno_district => nrel_square: [1390];;
+molodechno_district => nrel_population: [140200];;
+
+myadel_district => nrel_square: [1968];;
+myadel_district => nrel_population: [27055];;
+
+nesvizh_district => nrel_square: [863];;
+nesvizh_district => nrel_population: [41500];;
+
+puhovichi_district => nrel_square: [2441,12];;
+puhovichi_district => nrel_population: [66306];;
+
+slutsk_district => nrel_square: [1796];;
+slutsk_district => nrel_population: [95000];;
+
+smolevichi_district => nrel_square: [1403];;
+smolevichi_district => nrel_population: [43000];;
+
+soligorsk_district => nrel_square: [2500];;
+soligorsk_district => nrel_population: [42100];;
+
+starye_dorogi_district => nrel_square: [1371];;
+starye_dorogi_district => nrel_population: [21937];;
+
+stolbtsovsk_district => nrel_square: [1882];;
+stolbtsovsk_district => nrel_population: [43700];;
+
+uzdenskiy_district => nrel_square: [1185];;
+uzdenskiy_district => nrel_population: [27600];;
+
+chervenskiy_district => nrel_square: [1600];;
+chervenskiy_district => nrel_population: [34900];;
+
+
+
+zavodskoy_district => nrel_square: [58];;
+zavodskoy_district => nrel_population: [238798];;
+
+leninsky_district => nrel_square: [23];;
+leninsky_district => nrel_population: [215151];;
+
+moscow_district=> nrel_square: [29];;
+moscow_district => nrel_population: [270240];;
+
+october_1_district => nrel_square: [35];;
+october_1_district => nrel_population: [155061];;
+
+partizansky_district => nrel_square: [65];;
+partizansky_district => nrel_population: [97592];;
+
+pervomaisky_district => nrel_square: [34];;
+pervomaisky_district => nrel_population: [213985];;
+
+sovetsky_district => nrel_square: [20];;
+sovetsky_district => nrel_population: [162315];;
+
+frunze_district => nrel_square: [43];;
+frunze_district => nrel_population: [372431];;
+
+central_district => nrel_square: [41];;
+central_district => nrel_population: [111235];;

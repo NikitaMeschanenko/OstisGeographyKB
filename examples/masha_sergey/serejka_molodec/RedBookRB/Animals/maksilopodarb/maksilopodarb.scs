@@ -1,0 +1,11 @@
+maksilopodarb
+=> nrel_main_idtf: [максилопода] (* <- lang_ru;; *);
+=> nrel_main_idtf: [maksilopoda] (* <- lang_en;; *);;
+
+maksilopodarb => nrel_parts:
+copepodsrb
+;;
+
+copepodsrb
+=> nrel_main_idtf: [велоногие] (* <- lang_ru;; *);
+=> nrel_main_idtf: [copepods] (* <- lang_en;; *);;

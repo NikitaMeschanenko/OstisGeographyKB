@@ -1,0 +1,19 @@
+Ltd_Biomolprom => nrel_main_idtf:
+	[ООО "Биомолпром"] (* <- lang_ru;; *);
+	[Ltd. "Biomolprom"] (* <- lang_en;; *);;
+
+Berezino_distillery => nrel_main_idtf:
+	[Березинский спиртовой завод] (* <- lang_ru;; *);
+	[Berezino distillery] (* <- lang_en;; *);;
+
+Berezino_flax => nrel_main_idtf:
+	[Березинский льнозавод] (* <- lang_ru;; *);
+	[Berezino flax] (* <- lang_en;; *);;
+
+Berezino_Cheese_Factory => nrel_main_idtf:
+	[Березинский сыродельный завод] (* <- lang_ru;; *);
+	[Berezino Cheese Factory] (* <- lang_en;; *);;
+
+Berezino_factory_bakery_products => nrel_main_idtf:
+	[Березинский завод хлебобулочных изделий] (* <- lang_ru;; *);
+	[Berezino factory bakery products] (* <- lang_en;; *);;

@@ -1,0 +1,35 @@
+sc_node_struct -> dolginovo;;
+
+dolginovo => nrel_main_idtf:
+	[Долгиново]
+	(*
+	<- lang_ru;;
+	*);
+	[Dolginovo]
+	(*
+	<- lang_en;;
+	*);;
+
+dolginovo => nrel_region: minsk_region;;
+
+dolginovo => nrel_district: vilejka_district;;
+
+dolginovo => nrel_state: residential;;
+
+dolginovo => nrel_postcode: [222424];;
+
+dolginovo => nrel_population: [1165];;
+
+dolginovo => nrel_code_soato:[6213817056];;
+
+dolginovo <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://dolginovo.png";;
+			*);; 
+	*);; 

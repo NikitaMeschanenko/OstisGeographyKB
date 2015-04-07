@@ -1,0 +1,131 @@
+Aquila_chrysaetos => nrel_date_of_entry: [1981];; 
+
+nrel_kingdom
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[царство*]
+	(*
+	<- lang_ru;;
+	*);
+	[kingdom*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_morphology
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Морфология*]
+	(*
+	<- lang_ru;;
+	*);
+	[morphology*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_department
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отдел*]
+	(*
+	<- lang_ru;;
+	*);
+	[department*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_class
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[класс*]
+	(*
+	<- lang_ru;;
+	*);
+	[class*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_order
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[порядок*]
+	(*
+	<- lang_ru;;
+	*);
+	[order*]
+	(*
+	<- lang_en;;
+	*);;
+
+
+nrel_value_and_application
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Значение и применение*]
+	(*
+	<- lang_ru;;
+	*);
+	[value_and_application*]
+	(*
+	<- lang_en;;
+	*);;
+
+aves
+=> nrel_main_idtf: [птицы] (* <- lang_ru;; *);
+=> nrel_main_idtf: [AVES] (* <- lang_en;; *);;
+
+CHARADRIIFORMES
+=> nrel_main_idtf: [РЖАНКООБРАЗНЫЕ ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [CHARADRIIFORMES] (* <- lang_en;; *);;
+
+SCOLOPACIDAE
+=> nrel_main_idtf: [БЕКАСОВЫЕ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [SCOLOPACIDAE] (* <- lang_en;; *);;
+
+category_3
+=> nrel_main_idtf: [III КАТЕГОРИЯ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [category 3] (* <- lang_en;; *);;
+
+STRIGIFORMES
+=> nrel_main_idtf: [СОВООБРАЗНЫЕ ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [STRIGIFORMES] (* <- lang_en;; *);;
+
+STRIGIDAE
+=> nrel_main_idtf: [СОВИНЫЕ ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [STRIGIDAE] (* <- lang_en;; *);;
+
+category_2
+=> nrel_main_idtf: [II КАТЕГОРИЯ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [category 2] (* <- lang_en;; *);;
+
+FALCONIFORMES
+=> nrel_main_idtf: [СОКОЛООБРАЗНЫЕ  ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [FALCONIFORMES] (* <- lang_en;; *);;
+
+ACCIPITRIDAE
+=> nrel_main_idtf: [ЯСТРЕБИНЫЕ  ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [ACCIPITRIDAE] (* <- lang_en;; *);;
+
+ericaceae
+=> nrel_main_idtf: [Вересковые ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Ericaceae] (* <- lang_en;; *);;
+
+plant
+=> nrel_main_idtf: [Растение ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [рlant] (* <- lang_en;; *);;
+
+floral
+=> nrel_main_idtf: [Цветовые ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [floral] (* <- lang_en;; *);;
+
+bichromatic 
+=> nrel_main_idtf: [Двудольные ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [bichromatic ] (* <- lang_en;; *);;
+
+vereskotsvetnye
+=> nrel_main_idtf: [Верескоцветные ] (* <- lang_ru;; *);
+=> nrel_main_idtf: [vereskotsvetnye] (* <- lang_en;; *);;
+

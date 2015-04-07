@@ -1,0 +1,16 @@
+creepyrb
+=> nrel_main_idtf: [пресмыкающиеся] (* <- lang_ru;; *);
+=> nrel_main_idtf: [creepy] (* <- lang_en;; *);;
+
+creepyrb => nrel_parts:
+turtlesrb;
+scaledrb
+;;
+
+turtlesrb
+=> nrel_main_idtf: [черепахи] (* <- lang_ru;; *);
+=> nrel_main_idtf: [turtles] (* <- lang_en;; *);;
+
+scaledrb
+=> nrel_main_idtf: [чешуйчатые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [scaled] (* <- lang_en;; *);;

@@ -1,0 +1,21 @@
+bony_fishrb
+=> nrel_main_idtf: [костные рыбы] (* <- lang_ru;; *);
+=> nrel_main_idtf: [bony fish] (* <- lang_en;; *);;
+
+bony_fishrb => nrel_parts:
+	carpsrb;
+	salmoniformesrb;
+	sturgeonrb
+	;;
+
+carpsrb
+=> nrel_main_idtf: [карпообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [carps] (* <- lang_en;; *);;
+
+salmoniformesrb
+=> nrel_main_idtf: [лососеобразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [salmoniformes] (* <- lang_en;; *);;
+ 
+sturgeonrb
+=> nrel_main_idtf: [осетрообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [sturgeon] (* <- lang_en;; *);;

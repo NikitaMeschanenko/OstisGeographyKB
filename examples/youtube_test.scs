@@ -1,0 +1,17 @@
+youtube_test
+<- sc_node_not_relation;
+<- wolrd_science_technical_conferences;
+
+=> nrel_main_idtf:
+	[Конференции OSTIS] (* <- lang_ru;; *);
+	[OSTIS conferences] (* <- lang_en;; *);
+
+=> nrel_site:
+	[U1mujiT-J_Y] 
+	(*
+	=> nrel_format:
+		format_youtubelink;;
+	*);;
+
+
+

@@ -1,0 +1,37 @@
+sc_node_struct -> negoreloe;;
+
+negoreloe => nrel_main_idtf:
+	[Негорелое]
+	(*
+	<- lang_ru;;
+	*);
+	[Negoreloe]
+	(*
+	<- lang_en;;
+	*);;
+
+negoreloe => nrel_region: minsk_region;;
+
+negoreloe => nrel_district: dzerjinsk_district;;
+
+negoreloe => nrel_state: residential;;
+
+negoreloe => nrel_politic: district_center;;
+
+negoreloe => nrel_date: [2009];;
+
+negoreloe => nrel_population: [971];;
+
+negoreloe => nrel_postcode: [222710];;
+
+negoreloe <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://5.png";;
+			*);; 
+	*);; 

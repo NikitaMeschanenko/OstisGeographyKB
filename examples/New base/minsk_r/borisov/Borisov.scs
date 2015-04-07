@@ -1,0 +1,41 @@
+sc_node_struct -> borisov;;
+
+borisov => nrel_main_idtf:
+	[Борисов]
+	(*
+	<- lang_ru;;
+	*);
+	[Borisov]
+	(*
+	<- lang_en;;
+	*);;
+
+borisov => nrel_region: minsk_region;;
+
+borisov => nrel_district: borisov_district;;
+
+borisov => nrel_state: residential;;
+
+borisov => nrel_politic: district_center;;
+
+borisov => nrel_population: [145659];;
+
+borisov => nrel_date: [1102];;
+
+borisov => nrel_postcode: [222120];;
+
+borisov => nrel_code_soato:[6404000000];;
+
+borisov => nrel_square:[53];;
+
+borisov <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://borisov.png";;
+			*);; 
+	*);; 

@@ -1,0 +1,9 @@
+nrel_min_town
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Город с минимальным населением*]
+	(*
+	<- lang_ru;;
+	*);;
+
+

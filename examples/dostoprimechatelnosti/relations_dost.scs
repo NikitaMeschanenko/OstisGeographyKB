@@ -1,0 +1,51 @@
+nrel_birhday
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Дата рождения*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Birhtday*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_deathday
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Дата смерти*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Dead day*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_history
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[История*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[History*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_info
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Информация*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Information*]
+	(*
+	<- lang_en;;
+	*);;

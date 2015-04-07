@@ -1,0 +1,91 @@
+sc_node_struct -> minsk;;
+
+minsk => nrel_main_idtf:
+	[Минск]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk]
+	(*
+	<- lang_en;;
+	*);;
+
+minsk => nrel_region: minsk_region;;
+
+minsk => nrel_district: minsk_district;;
+
+minsk => nrel_state: residential;;
+
+minsk => nrel_politic: district_center;;
+
+RB => nrel_capital: minsk;;
+
+minsk => nrel_population: [1923300];;
+
+minsk => nrel_square: [348,84];;
+
+minsk => nrel_date: [1067];;
+
+minsk => nrel_postcode: [220000-220141];;
+
+minsk <= nrel_politico_administrative_division:
+	{
+	zavodskoy_district;
+	leninsky_district;
+	moscow_district;
+	october_1_district;
+	partizansky_district;
+	pervomaisky_district;
+	sovetsky_district;
+	frunze_district;
+	central_district
+	};;
+
+minsk <= nrel_showplace:
+	{
+	artmuseum;
+	bigtheatre;
+	cathedral;
+	house;
+	library;
+	museumofgreatwar;
+	pischalauski;
+	pit;
+	redchurch
+	};;
+
+minsk <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://000655_522442.jpg";;
+			*);; 
+	*);;
+
+minsk <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://minskkurs.jpg";;
+			*);; 
+	*);;
+
+minsk <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://Vorota-Minsk-hdr1.jpg";;
+			*);; 
+	*);;

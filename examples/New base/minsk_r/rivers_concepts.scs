@@ -1,0 +1,15 @@
+berezina => nrel_main_idtf:
+	[Березина] 	(* <- lang_ru;; *);
+	[Berezina] (* <- lang_en;; *);;
+
+Gorodichanka => nrel_main_idtf:
+	[Городичанка] (* <- lang_ru;; *);
+	[Gorodichanka] (* <- lang_en;; *);;
+
+drut => nrel_main_idtf:
+	[Друть] (* <- lang_ru;; *);
+	[Drut] (* <- lang_en;; *);;
+
+Nieman => nrel_main_idtf:
+	[Неман] (* <- lang_ru;; *);
+	[Nieman] (* <- lang_en;; *);;

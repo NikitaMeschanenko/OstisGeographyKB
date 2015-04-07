@@ -1,0 +1,331 @@
+nrel_detachment
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[отряд*]
+	(*
+	<- lang_ru;;
+	*);
+	[detachment*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_kind
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[семейство*]
+	(*
+	<- lang_ru;;
+	*);
+	[kind*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_category
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[категория*]
+	(*
+	<- lang_ru;;
+	*);
+	[category*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_protection_category
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[категория защиты*]
+	(*
+	<- lang_ru;;
+	*);
+	[protection category*]
+	(*
+	<- lang_en;;
+	*);;
+
+
+nrel_date_of_entry
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[дата занесения*]
+	(*
+	<- lang_ru;;
+	*);
+	[date of entry*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_habitat
+<- sc_node_norole_relation;
+<- quasybinary_relation;
+=> nrel_main_idtf:
+	[места обитания*]
+	(*
+	<- lang_ru;;
+	*);
+	[habitat*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_spreading
+<- sc_node_norole_relation;
+<- quasybinary_relation;
+=> nrel_main_idtf:
+	[распространение*]
+	(*
+	<- lang_ru;;
+	*);
+	[spreading*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_species
+<- sc_node_norole_relation;
+<- quasybinary_relation;
+=> nrel_main_idtf:
+	[вид*]
+	(*
+	<- lang_ru;;
+	*);
+	[species*]
+	(*
+	<- lang_en;;
+	*);;
+
+
+nrel_major_threats
+<- sc_node_norole_relation;
+<- quasybinary_relation;
+=> nrel_main_idtf:
+	[основные факторы угрозы*]
+	(*
+	<- lang_ru;;
+	*);
+	[major threats*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_amount_tendencies
+<- sc_node_norole_relation;
+<- quasybinary_relation;
+=> nrel_main_idtf:
+	[численность и тенденции ее изменения*]
+	(*
+	<- lang_ru;;
+	*);
+	[amount tendencies*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_description
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[описание*]
+	(*
+	<- lang_ru;;
+	*);
+	[description*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_biology
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[биология*]
+	(*
+	<- lang_ru;;
+	*);
+	[biology*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_protection_measures
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[меры защиты*]
+	(*
+	<- lang_ru;;
+	*);
+	[protection measures*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_history
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[История*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[History*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_detachment
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Отряд*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Detachment*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_family
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Семейство*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Family*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_taxonomic_position
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Таксономическое положение*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Taxonomic position*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_state_for_animals
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Статус*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[State*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_brief_description
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Краткое описание вида*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[A brief description of the type*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_general_distribution
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Общее распространение*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[General distribution*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_habitats
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Места обитания*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Habitats*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_numbers
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Численность и тенденции ее изменения*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Numbers and trends of change*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_lim_factors
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Основные лимитирующие факторы*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[The main limiting factors*]
+	(*
+	<- lang_en;;
+	*);;
+	
+nrel_biolog_ecolog
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Особенности биологии и экологии*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Features of biology and ecology*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_birhtday
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Дата рождения*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Birhtday*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_deatday
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[Дата смерти*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_main_idtf:
+	[Dead day*]
+	(*
+	<- lang_en;;
+	*);;

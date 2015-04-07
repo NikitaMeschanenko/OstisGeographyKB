@@ -1,0 +1,21 @@
+sc_node_struct -> rebook;;
+
+redbook => nrel_main_idtf:
+	[Красная Книга Республики Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[The Red Book of the Republic of Belarus]
+	(*
+	<- lang_en;;
+	*);;
+
+redbook => nrel_parts:
+
+animalsrb;
+plantsrb
+;; 
+
+redbook =>nrel_photo: "file://redbook.jpg";;
+
+redbook =>nrel_description: [Красная книга Республики Беларусь (белор. Чырвоная кніга Рэспублікі Беларусь) — аннотированный перечень редких видов флоры и фауны на территории Белоруссии, стоящих перед угрозой исчезновения на территории страны.];;

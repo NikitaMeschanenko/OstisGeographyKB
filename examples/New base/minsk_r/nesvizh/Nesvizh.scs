@@ -1,0 +1,39 @@
+sc_node_struct -> nesvizh;;
+
+nesvizh => nrel_main_idtf:
+	[Несвиж]
+	(*
+	<- lang_ru;;
+	*);
+	[Nesvizh]
+	(*
+	<- lang_en;;
+	*);;
+
+nesvizh => nrel_region: minsk_region;;
+
+nesvizh => nrel_district: nesvizh_district;;
+
+nesvizh => nrel_state: residential;;
+
+nesvizh => nrel_politic: district_center;;
+
+nesvizh => nrel_date: [1223];;
+
+nesvizh => nrel_population: [14300];;
+
+nesvizh => nrel_postcode: [222603,222620];;
+
+nesvizh => nrel_code_soato:[6242501000];;
+
+nesvizh <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://38.png";;
+			*);; 
+	*);; 

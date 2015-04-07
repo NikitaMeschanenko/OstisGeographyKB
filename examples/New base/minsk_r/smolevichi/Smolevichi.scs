@@ -1,0 +1,39 @@
+sc_node_struct -> smolevichi;;
+
+smolevichi => nrel_main_idtf:
+	[Смолевичи]
+	(*
+	<- lang_ru;;
+	*);
+	[Smolevichi]
+	(*
+	<- lang_en;;
+	*);;
+
+smolevichi => nrel_region: minsk_region;;
+
+smolevichi => nrel_district: smolevichi_district;;
+
+smolevichi => nrel_state: residential;;
+
+smolevichi => nrel_politic: district_center;;
+
+smolevichi => nrel_date: [1448];;
+
+smolevichi => nrel_population: [15316];;
+
+smolevichi => nrel_postcode: [222201];;
+
+smolevichi => nrel_code_soato: [6248501000];;
+
+smolevichi <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://kak-zhivut-smolevichi-fotoreportazh_2.png";;
+			*);; 
+	*);; 

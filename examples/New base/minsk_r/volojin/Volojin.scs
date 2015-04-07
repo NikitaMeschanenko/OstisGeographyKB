@@ -1,0 +1,41 @@
+sc_node_struct -> volojin;;
+
+volojin => nrel_main_idtf:
+	[Воложин]
+	(*
+	<- lang_ru;;
+	*);
+	[Volojini]
+	(*
+	<- lang_en;;
+	*);;
+
+volojin => nrel_region: minsk_region;;
+
+volojin => nrel_district: volojin_district;;
+
+volojin => nrel_state: residential;;
+
+volojin => nrel_politic: district_center;;
+
+volojin => nrel_date: [1400];;
+
+volojin => nrel_population: [11100];;
+
+volojin => nrel_postcode: [222340];;
+
+volojin => nrel_code_soato: [6220501000];;
+
+volojin => nrel_square: [53];;
+
+volojin <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://volojin_1.png";;
+			*);; 
+	*);; 

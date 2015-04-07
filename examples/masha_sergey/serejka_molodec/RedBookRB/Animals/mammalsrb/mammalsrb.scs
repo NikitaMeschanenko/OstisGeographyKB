@@ -1,0 +1,26 @@
+mammalsrb
+=> nrel_main_idtf: [млекопитающие] (* <- lang_ru;; *);
+=> nrel_main_idtf: [mammals] (* <- lang_en;; *);;
+
+mammalsrb => nrel_parts:
+rodentsrb;
+artiodactylrb;
+cheiropterarb;
+predatoryrb
+;;
+
+artiodactylrb
+=> nrel_main_idtf: [парнокопытные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [artiodactyl] (* <- lang_en;; *);;
+
+rodentsrb
+=> nrel_main_idtf: [грызуны] (* <- lang_ru;; *);
+=> nrel_main_idtf: [predatory] (* <- lang_en;; *);;
+
+cheiropterarb
+=> nrel_main_idtf: [рукокрылые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [cheiropterarb] (* <- lang_en;; *);;
+
+predatoryrb
+=> nrel_main_idtf: [хищные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [predatory] (* <- lang_en;; *);;

@@ -1,0 +1,16 @@
+amphibiarb
+=> nrel_main_idtf: [земноводные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [amphibia] (* <- lang_en;; *);;
+
+amphibiarb => nrel_parts:
+taillessrb;
+tailedrb
+;;
+
+taillessrb
+=> nrel_main_idtf: [бесхвостые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [tailless] (* <- lang_en;; *);;
+
+tailedrb
+=> nrel_main_idtf: [хвостатые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [tailed] (* <- lang_en;; *);;

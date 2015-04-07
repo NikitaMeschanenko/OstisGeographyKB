@@ -1,0 +1,393 @@
+agent_of_finding_max_moutain
+=> nrel_main_idtf:
+	[агентная scp-программа поиска в промежутке с заданными границами] (* <- lang_ru;; *);
+	[agent scp-program of searching interval with preassigned borders] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_max_moutain
+	(*
+	-> rrel_params: .agent_of_finding_max_moutain_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_max_moutain_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_max_moutain_operator1 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_max_moutain_operator2;;
+			*);;
+
+
+	-> .agent_of_finding_max_moutain_operator2 
+			(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_max_moutain;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_max_moutain_operator3;;
+		  	=> nrel_else: .agent_of_finding_max_moutain_operator_return;;
+			*);;
+
+	-> .agent_of_finding_max_moutain_operator3 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _region;;
+
+		  	=> nrel_then: .agent_of_finding_max_moutain_operator4A;;
+		  	=> nrel_else: .agent_of_finding_max_moutain_operator_return;;
+			*);;
+
+	-> .agent_of_finding_max_moutain_operator4A 
+			(*
+		 	<- genEl;;
+		 	-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+
+		 	=> nrel_goto: .agent_of_finding_max_moutain_operator4B11;;
+		 	*);;
+
+		-> .agent_of_finding_max_moutain_operator4B11 (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _region;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _maxMoutain;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_max_height;;
+
+			=> nrel_then: .agent_of_finding_max_moutain_operator12;;
+			=> nrel_else: .agent_of_finding_max_moutain_operator4B;;
+		*);;
+
+
+-> .agent_of_finding_max_moutain_operator4B1 (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _region;;
+	=> nrel_goto: .agent_of_finding_max_moutain_operator4B;;
+*);;
+
+ 	-> .agent_of_finding_max_moutain_operator4B (*
+			<- searchSetStr5;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _region;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _moutain;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_region;;
+			-> rrel_set_1: rrel_assign: rrel_scp_var: _moutains;;
+
+			=> nrel_then: .agent_of_finding_max_moutain_operator4BB;;
+			=> nrel_else: .agent_of_finding_max_moutain_operator4BB;;
+		*);;
+
+-> .agent_of_finding_max_moutain_operator4BB (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _moutains;;
+	=> nrel_goto: .agent_of_finding_max_moutain_operator4C;;
+*);;
+
+	-> .agent_of_finding_max_moutain_operator4C (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _moutains;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _maxMoutain;;
+			
+
+			=> nrel_then: .agent_of_finding_max_moutain_operator5;;
+			=> nrel_else: .agent_of_finding_max_moutain_operator_return;;
+			*);;
+	
+
+	-> .agent_of_finding_max_moutain_operator5 (*
+		  <- eraseEl;;
+		  -> rrel_1: rrel_erase: rrel_scp_var: _arc1;;
+
+		  => nrel_goto: .agent_of_finding_max_moutain_operator5AB;;
+		*);;
+
+-> .agent_of_finding_max_moutain_operator5AB (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _moutains;;
+	=> nrel_goto: .agent_of_finding_max_moutain_operator5A;;
+*);;
+
+ 	-> .agent_of_finding_max_moutain_operator5A (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _maxMoutain;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: maxHeight;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_height;;
+
+			=> nrel_then: .agent_of_finding_max_moutain_operatorSAD;;
+			=> nrel_else: .agent_of_finding_max_moutain_operator4C;;
+		*);;
+
+
+
+
+
+-> .agent_of_finding_max_moutain_operatorSAD (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _maxMoutain;;
+	=> nrel_goto: .agent_of_finding_max_moutain_operator6;;
+*);;
+
+
+
+
+	-> .agent_of_finding_max_moutain_operator6
+			(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _moutains;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _moutain;;
+			
+
+			=> nrel_then: .agent_of_finding_max_moutain_operator7;;
+			=> nrel_else: .agent_of_finding_max_moutain_gen_answer911 ;;
+			*);;
+	
+
+	-> .agent_of_finding_max_moutain_operator7 (*
+		  <- eraseEl;;
+		  -> rrel_1: rrel_erase: rrel_scp_var: _arc1;;
+
+		  => nrel_goto: .agent_of_finding_max_moutain_operator8;;
+		*);;
+
+ 	-> .agent_of_finding_max_moutain_operator8 (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _moutain;;	
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _moutain1;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_height;;
+
+			=> nrel_then: .agent_of_finding_max_moutain_operator9;;
+			=> nrel_else: .agent_of_finding_max_moutain_operator6;;
+		*);;
+
+	-> .agent_of_finding_max_moutain_operator9 (*
+			<- ifGr;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _moutain1;;	
+			-> rrel_2: rrel_fixed: rrel_scp_var: maxHeight;;
+			
+			=> nrel_then: .agent_of_finding_max_moutain_operator10;;
+			=> nrel_else: .agent_of_finding_max_moutain_operator6;;
+			*);;
+
+ 	-> .agent_of_finding_max_moutain_operator10 (*
+			<- varAssign;;
+			-> rrel_1: rrel_assign: rrel_scp_var: maxHeight;;	
+			-> rrel_2: rrel_fixed: rrel_scp_var: _moutain1;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_operator101;;
+		*);;
+
+
+
+
+ 	-> .agent_of_finding_max_moutain_operator101 (*
+			<- varAssign;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _maxMoutain;;	
+			-> rrel_2: rrel_fixed: rrel_scp_var: _moutain;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_operator6;;
+		*);;
+
+
+	-> .agent_of_finding_max_moutain_gen_answer911 (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _region;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: _maxMoutain;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_max_height;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_operator12;;
+		*);;
+
+		-> .agent_of_finding_max_moutain_operator12 (*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _maxMoutain;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: maxHeight;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_moutain;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer3print;;
+		*);;
+
+-> .agent_of_finding_max_moutain_gen_answer3print (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _maxMoutain;;
+	=> nrel_goto: .agent_of_finding_max_moutain_gen_answer31;;
+*);;
+
+
+
+		-> .agent_of_finding_max_moutain_gen_answer31(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: _region;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer31print;;
+		*);;	
+
+
+
+-> .agent_of_finding_max_moutain_gen_answer31print (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _region;;
+	=> nrel_goto: .agent_of_finding_max_moutain_gen_answer7;;
+*);;
+
+
+		-> .agent_of_finding_max_moutain_gen_answer7 (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: _maxMoutain;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer4;;
+		*);;
+
+
+
+		-> .agent_of_finding_max_moutain_gen_answer4(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_scp_var: rrel_assign: rrel_const: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_scp_const: rrel_fixed: nrel_moutain;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer82;;
+		*);;		
+
+
+
+/*		-> .agent_of_finding_max_moutain_gen_answer35 (*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_scp_var: rrel_assign: rrel_const: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: maxHeight;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer82;;
+		*);;
+*/
+
+
+
+/*		-> .agent_of_finding_max_moutain_gen_answer5 (*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _maxMoutain;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _region;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_region;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: rrel_const: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: rrel_const: _answer;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer6;;
+		*);;
+*/
+
+
+/*		-> .agent_of_finding_max_moutain_gen_answer6(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_scp_var: rrel_assign: rrel_const: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_scp_const: rrel_fixed: nrel_region;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer81;;
+		*);;	
+
+
+
+*/
+
+
+
+
+/*
+		-> .agent_of_finding_max_moutain_gen_answer81 (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _region;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_scp_var: rrel_fixed: _maxMoutain;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_max_height;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer82;;
+		*);;
+
+*/
+
+		-> .agent_of_finding_max_moutain_gen_answer82 (*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _region;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _maxMoutain;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_max_height;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: rrel_const: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: rrel_const: _answer;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer83;;
+		*);;
+
+
+		-> .agent_of_finding_max_moutain_gen_answer83(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc2;;
+			-> rrel_3: rrel_scp_const: rrel_fixed: nrel_max_height;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer7print;;
+		*);;
+
+-> .agent_of_finding_max_moutain_gen_answer7print (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _answer;;
+	=> nrel_goto: .agent_of_finding_max_moutain_gen_answer8;;
+*);;
+
+		-> .agent_of_finding_max_moutain_gen_answer8 (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+			=> nrel_goto: .agent_of_finding_max_moutain_gen_answer11print;;
+		*);;
+
+
+-> .agent_of_finding_max_moutain_gen_answer11print (*
+	<- printEl;;
+	-> rrel_1: rrel_scp_var: rrel_fixed: _quest;;
+	=> nrel_goto: .agent_of_finding_max_moutain_operator_return;;
+*);;
+
+		
+		 -> .agent_of_finding_max_moutain_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+*);;

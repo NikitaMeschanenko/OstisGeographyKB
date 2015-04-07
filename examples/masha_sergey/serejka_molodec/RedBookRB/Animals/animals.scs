@@ -1,0 +1,21 @@
+animalsrb
+=> nrel_main_idtf: [животные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [animals] (* <- lang_en;; *);;
+
+animalsrb => nrel_parts:
+
+mammalsrb;
+birdsrb;
+amphibiarb;
+creepyrb;
+lampreyrb;
+bony_fishrb;
+insectsrb;
+leechrb;
+maksilopodarb;
+higher_crustaceansrb;
+branchiopoda_cancersrb;
+arachnidsrb;
+millipedes_centipederb;
+bivalvesrb
+;; 

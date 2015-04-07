@@ -1,0 +1,11 @@
+leechrb
+=> nrel_main_idtf: [пиявки] (* <- lang_ru;; *);
+=> nrel_main_idtf: [leech] (* <- lang_en;; *);;
+
+leechrb => nrel_parts:
+turtlesrb
+;;
+
+turtlesrb
+=> nrel_main_idtf: [бесхоботные пиявки] (* <- lang_ru;; *);
+=> nrel_main_idtf: [beskhobotnye leech] (* <- lang_en;; *);;

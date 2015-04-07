@@ -1,0 +1,11 @@
+lampreyrb
+=> nrel_main_idtf: [миноги] (* <- lang_ru;; *);
+=> nrel_main_idtf: [lamprey] (* <- lang_en;; *);;
+
+creepyrb => nrel_parts:
+minogoobraznyerb
+;;
+
+minogoobraznyerb
+=> nrel_main_idtf: [миногообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [minogoobraznye] (* <- lang_en;; *);;

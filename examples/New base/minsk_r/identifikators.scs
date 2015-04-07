@@ -1,0 +1,596 @@
+RB => nrel_main_idtf:
+	[Республика Беларусь] (* <- lang_ru;; *);
+	[Repablic of Belarus] (* <- lang_en;; *);;
+
+city => nrel_main_idtf:
+	[Город] (* <- lang_ru;; *);
+	[Сity] (* <- lang_en;; *);;
+
+brest_region => nrel_main_idtf:
+	[Брестская область] (* <- lang_ru;; *);
+	[Brest region] (* <- lang_en;; *);;
+
+vitebsk_region => nrel_main_idtf:
+	[Витебская область] (* <- lang_ru;; *);
+	[Vitebsk region] (* <- lang_en;; *);;
+
+gomel_region => nrel_main_idtf:
+	[Гомельская область] (* <- lang_ru;; *);
+	[Gomel region] (* <- lang_en;; *);;
+
+grodno_region => nrel_main_idtf:
+	[Гродненская область] (* <- lang_ru;; *);
+	[Grodno region] (* <- lang_en;; *);;
+
+minsk_region => nrel_main_idtf:
+	[Минская область] (* <- lang_ru;; *);
+	[Minsk region] (* <- lang_en;; *);;
+
+mogilev_region => nrel_main_idtf:
+	[Могилевская область] (* <- lang_ru;; *);
+	[Mogilev region] (* <- lang_en;; *);;
+
+baranovichi_district => nrel_main_idtf:
+	[Барановичский район] (* <- lang_ru;; *);
+	[Baranovichsky district] (* <- lang_en;; *);;
+
+berezino_district => nrel_main_idtf:
+	[Березинский район] (* <- lang_ru;; *);
+	[Berezino district] (* <- lang_en;; *);;
+
+belynichi_district => nrel_main_idtf:
+	[Белыничский район] (* <- lang_ru;; *);
+	[Belynichi district] (* <- lang_en;; *);;
+
+berestovitskiy_district => nrel_main_idtf:
+	[Берестовицкий район] (* <- lang_ru;; *);
+	[Berestovitskiy district] (* <- lang_en;; *);;
+
+byaroza_district => nrel_main_idtf:
+	[Берёзовский район] (* <- lang_ru;; *);
+	[Byaroza district] (* <- lang_en;; *);;
+
+beshenkovichi_district => nrel_main_idtf:
+	[Бешенковичский район] (* <- lang_ru;; *);
+	[Beshenkovichi district] (* <- lang_en;; *);;
+
+bobruisk_district => nrel_main_idtf:
+	[Бобруйский район] (* <- lang_ru;; *);
+	[Bobruisk district] (* <- lang_en;; *);;
+
+borisov_district => nrel_main_idtf:
+	[Борисовский район] (* <- lang_ru;; *);
+	[Borisov district] (* <- lang_en;; *);;
+
+bragin_district => nrel_main_idtf:
+	[Брагинский район] (* <- lang_ru;; *);
+	[Bragin district] (* <- lang_en;; *);;
+
+braslavsky_district => nrel_main_idtf:
+	[Браславский район] (* <- lang_ru;; *);
+	[Braslavsky district] (* <- lang_en;; *);;
+
+brest_district => nrel_main_idtf:
+	[Брестский район] (* <- lang_ru;; *);
+	[Вrest district] (* <- lang_en;; *);;
+
+buda_kosleheva_district => nrel_main_idtf:
+	[Буда-Кошелёвский район] (* <- lang_ru;; *);
+	[Buda_kosleheva district] (* <- lang_en;; *);;
+
+byhov_district => nrel_main_idtf:
+	[Быховский район] (* <- lang_ru;; *);
+	[Byhov district] (* <- lang_en;; *);;
+
+verkhnedvinsky_district => nrel_main_idtf:
+	[Верхнедвинский район] (* <- lang_ru;; *);
+	[Verkhnedvinsky district] (* <- lang_en;; *);;
+
+vetka_district => nrel_main_idtf:
+	[Ветковский район] (* <- lang_ru;; *);
+	[Vetka district] (* <- lang_en;; *);;
+
+vilejka_district => nrel_main_idtf:
+	[Вилейский район] (* <- lang_ru;; *);
+	[Vilejka district] (* <- lang_en;; *);;
+
+vitebsk_district => nrel_main_idtf:
+	[Витебский район] (* <- lang_ru;; *);
+	[Vitebsk district] (* <- lang_en;; *);;
+
+volkoviskiy_district => nrel_main_idtf:
+	[Волковысский район] (* <- lang_ru;; *);
+	[Volkoviskiy district] (* <- lang_en;; *);;
+
+volojin_district => nrel_main_idtf:
+	[Воложинский район] (* <- lang_ru;; *);
+	[Volojin district] (* <- lang_en;; *);;
+
+voronovskiy_district => nrel_main_idtf:
+	[Вороновский район] (* <- lang_ru;; *);
+	[Voronovskiy district] (* <- lang_en;; *);;
+
+gantsevichi_district => nrel_main_idtf:
+	[Ганцевичский район] (* <- lang_ru;; *);
+	[Gantsevichsky district] (* <- lang_en;; *);;
+
+glubokoye_district => nrel_main_idtf:
+	[Глубокский район] (* <- lang_ru;; *);
+	[Glubokoye district] (* <- lang_en;; *);;
+
+gomel_district => nrel_main_idtf:
+	[Гомельский район] (* <- lang_ru;; *);
+	[Gomel district] (* <- lang_en;; *);;
+
+gorki_district => nrel_main_idtf:
+	[Горецкий район] (* <- lang_ru;; *);
+	[Gorki district] (* <- lang_en;; *);;
+
+gorodokskoy_district => nrel_main_idtf:
+	[Городокский  район] (* <- lang_ru;; *);
+	[Gorodokskoy district] (* <- lang_en;; *);;
+
+grodno_district => nrel_main_idtf:
+	[Гродненский район] (* <- lang_ru;; *);
+	[Grodno district] (* <- lang_en;; *);;
+
+glubokski_district => nrel_main_idtf:
+ 	[Глубокский район] (* <- lang_ru;; *);
+	[Glubokski district] (* <- lang_en;; *);;
+
+glusk_district => nrel_main_idtf:
+	[Глусский район] (* <- lang_ru;; *);
+	[Glusk district] (* <- lang_en;; *);;
+
+dzerjinsk_district => nrel_main_idtf:
+	[Дзержинский район] (* <- lang_ru;; *);
+	[Dzerjinsk district] (* <- lang_en;; *);;
+
+dobrush_district => nrel_main_idtf:
+	[Добрушский район] (* <- lang_ru;; *);
+	[Dobrush district] (* <- lang_en;; *);;
+
+dokshitsy_district => nrel_main_idtf:
+	[Докшицкий район] (* <- lang_ru;; *);
+	[Dokshitsy district] (* <- lang_en;; *);;
+
+dribin_district => nrel_main_idtf:
+	[Дрибинский район] (* <- lang_ru;; *);
+	[Dribin district] (* <- lang_en;; *);;
+
+drogichinsky_district => nrel_main_idtf:
+	[Дрогичинский район] (* <- lang_ru;; *);
+	[Drogichinsky district] (* <- lang_en;; *);;
+
+dubrovno_district => nrel_main_idtf:
+	[Дубровенский район] (* <- lang_ru;; *);
+	[Dubrovno district] (* <- lang_en;; *);;
+
+dyatlovskiy_district => nrel_main_idtf:
+	[Дятловский район] (* <- lang_ru;; *);
+	[Dyatlovskiy district] (* <- lang_en;; *);;
+
+elsk_district => nrel_main_idtf:
+	[Ельский район] (* <- lang_ru;; *);
+	[Elsk district] (* <- lang_en;; *);;
+
+zhabinka_district => nrel_main_idtf:
+	[Жабинковский район] (* <- lang_ru;; *);
+	[Zhabinka district] (* <- lang_en;; *);;
+
+zhitkovichi_district => nrel_main_idtf:
+	[Житковичский район] (* <- lang_ru;; *);
+	[Zhitkovichi district] (* <- lang_en;; *);;
+
+jlobin_district => nrel_main_idtf:
+	[Жлобинский район] (* <- lang_ru;; *);
+	[Jlobin district] (* <- lang_en;; *);;
+
+zavodskoy_district => nrel_main_idtf:
+	[Заводской район] (* <- lang_ru;; *);
+	[Zavodskoy district] (* <- lang_en;; *);;
+
+zelvenskiy_district => nrel_main_idtf:
+	[Зельвенский район] (* <- lang_ru;; *);
+	[Zelvenskiy district] (* <- lang_en;; *);;
+
+ivanovo_district => nrel_main_idtf:
+	[Ивановский район] (* <- lang_ru;; *);
+	[Ivanovo district] (* <- lang_en;; *);;
+
+ivacevichi_district => nrel_main_idtf:
+	[Ивацевичский район] (* <- lang_ru;; *);
+	[Ivatsevichsky district] (* <- lang_en;; *);;
+
+ivievskiy_district => nrel_main_idtf:
+	[Ивьевский район] (* <- lang_ru;; *);
+	[Ivievskiy district] (* <- lang_en;; *);;
+
+kalinkovichi_district => nrel_main_idtf:
+	[Калинковичский район] (* <- lang_ru;; *);
+	[Kalinkovichi district] (* <- lang_en;; *);;
+
+kamenetz_district => nrel_main_idtf:
+	[Каменецкий район] (* <- lang_ru;; *);
+	[Kamenetz district] (* <- lang_en;; *);;
+
+kirov_district => nrel_main_idtf:
+	[Кировский район] (* <- lang_ru;; *);
+	[Kirov district] (* <- lang_en;; *);;
+
+kletsk_district => nrel_main_idtf:
+	[Клецкий район] (* <- lang_ru;; *);
+	[Kletsk district] (* <- lang_en;; *);;
+
+klimovichi_district => nrel_main_idtf:
+	[Климовичский район] (* <- lang_ru;; *);
+	[Klimovichi district] (* <- lang_en;; *);;
+
+klichev_district => nrel_main_idtf:
+	[Кличевский район] (* <- lang_ru;; *);
+	[Klichev district] (* <- lang_en;; *);;
+
+kobrin_district => nrel_main_idtf:
+	[Кобринский район] (* <- lang_ru;; *);
+	[Kobrin district] (* <- lang_en;; *);;
+
+komarin_district => nrel_main_idtf:
+	[Комаринский район] (* <- lang_ru;; *);
+	[komarin district] (* <- lang_en;; *);;
+
+kopyl_district => nrel_main_idtf:
+	[Копыльский район] (* <- lang_ru;; *);
+	[Kopyl district] (* <- lang_en;; *);;
+
+korelichskiy_district => nrel_main_idtf:
+	[Кореличский район] (* <- lang_ru;; *);
+	[Korelichskiy district] (* <- lang_en;; *);;
+
+korma_district => nrel_main_idtf:
+	[Кормянский район] (* <- lang_ru;; *);
+	[Korma district] (* <- lang_en;; *);;
+
+kostukovichi_district => nrel_main_idtf:
+	[Костюковичский район] (* <- lang_ru;; *);
+	[Kostukovichi district] (* <- lang_en;; *);;
+
+krasnopole_district => nrel_main_idtf:
+	[Краснопольский район] (* <- lang_ru;; *);
+	[Krasnopole district] (* <- lang_en;; *);;
+
+krichev_district => nrel_main_idtf:
+	[Кричевский район] (* <- lang_ru;; *);
+	[Krichev district] (* <- lang_en;; *);;
+
+krugloe_district => nrel_main_idtf:
+	[Круглянский район] (* <- lang_ru;; *);
+	[Krugloe district] (* <- lang_en;; *);;
+
+krupki_district => nrel_main_idtf:
+	[Крупский район] (* <- lang_ru;; *);
+	[Krupki district] (* <- lang_en;; *);;
+
+lelchitsy_district => nrel_main_idtf:
+	[Лельчицкий район] (* <- lang_ru;; *);
+	[Lelchitsy district] (* <- lang_en;; *);;
+
+leninsky_district => nrel_main_idtf:
+	[Ленинский район] (* <- lang_ru;; *);
+	[Leninsky district] (* <- lang_en;; *);;
+
+lepel_district => nrel_main_idtf:
+	[Лепельский район] (* <- lang_ru;; *);
+	[Lepel district] (* <- lang_en;; *);;
+
+lida_district => nrel_main_idtf:
+	[Лидский район] (* <- lang_ru;; *);
+	[Lida district] (* <- lang_en;; *);;
+
+lioznensky_district => nrel_main_idtf:
+	[Лиозненский район] (* <- lang_ru;; *);
+	[Lioznensky district] (* <- lang_en;; *);;
+
+logoisk_district => nrel_main_idtf:
+	[Логойский район] (* <- lang_ru;; *);
+	[Logoisk district] (* <- lang_en;; *);;
+
+loev_district => nrel_main_idtf:
+	[Лоевский район] (* <- lang_ru;; *);
+	[Loev district] (* <- lang_en;; *);;
+
+luninec_district => nrel_main_idtf:
+	[Лунинецкий район] (* <- lang_ru;; *);
+	[Luninec district] (* <- lang_en;; *);;
+
+ljuban_district => nrel_main_idtf:
+	[Любаньский район] (* <- lang_ru;; *);
+	[Ljuban district] (* <- lang_en;; *);;
+
+lyahovichi_district => nrel_main_idtf:
+	[Ляховичский район] (* <- lang_ru;; *);
+	[Lyahovichi district] (* <- lang_en;; *);;
+
+malorita_district => nrel_main_idtf:
+	[Малоритский район] (* <- lang_ru;; *);
+	[Malorita district] (* <- lang_en;; *);;
+
+minsk_district => nrel_main_idtf:
+	[Минский район] (* <- lang_ru;; *);
+	[Minsk district] (* <- lang_en;; *);;
+
+miorsky_district => nrel_main_idtf:
+	[Миорский район] (* <- lang_ru;; *);
+	[Miorsky district] (* <- lang_en;; *);;
+
+mogilev_district => nrel_main_idtf:
+	[Могилевский район] (* <- lang_ru;; *);
+	[Mogilev district] (* <- lang_en;; *);;
+
+mozyr_district => nrel_main_idtf:
+	[Мозырьский район] (* <- lang_ru;; *);
+	[Mozyr district] (* <- lang_en;; *);;
+
+molodechno_district => nrel_main_idtf:
+	[Молодечненский район] (* <- lang_ru;; *);
+	[Molodechno district] (* <- lang_en;; *);;
+
+moscow_district => nrel_main_idtf:
+	[Московский район] (* <- lang_ru;; *);
+	[Moscow district] (* <- lang_en;; *);;
+
+mostovsky_district => nrel_main_idtf:
+	[Мостовский район] (* <- lang_ru;; *);
+	[Mostovsky district] (* <- lang_en;; *);;
+
+mstislavl_district => nrel_main_idtf:
+	[Мстиславский район] (* <- lang_ru;; *);
+	[Mstislavl district] (* <- lang_en;; *);;
+
+myadel_district => nrel_main_idtf:
+	[Мядельский район] (* <- lang_ru;; *);
+	[Myadel  district] (* <- lang_en;; *);;
+
+narovlya_district => nrel_main_idtf:
+	[Наровлянский район] (* <- lang_ru;; *);
+	[Narovlya district] (* <- lang_en;; *);;
+
+nesvizh_district => nrel_main_idtf:
+	[Несвижский район] (* <- lang_ru;; *);
+	[Nesvizh  district] (* <- lang_en;; *);;
+
+novogrudsky_district => nrel_main_idtf:
+	[Новогрудский район] (* <- lang_ru;; *);
+	[Novogrudsky district] (* <- lang_en;; *);;
+
+october_district => nrel_main_idtf:
+	[Октябрьский район] (* <- lang_ru;; *);
+	[October district] (* <- lang_en;; *);;
+
+october_1_district => nrel_main_idtf:
+	[Октябрьский район (Минск)] (* <- lang_ru;; *);
+	[October district (Minsk)] (* <- lang_en;; *);;
+
+orsha_district => nrel_main_idtf:
+	[Оршанский район] (* <- lang_ru;; *);
+	[Orsha district] (* <- lang_en;; *);;
+
+orsha_district => nrel_main_idtf:
+	[Оршанский район] (* <- lang_ru;; *);
+	[Orsha district] (* <- lang_en;; *);;
+
+osipovichi_district => nrel_main_idtf:
+	[Осиповичский район] (* <- lang_ru;; *);
+	[Osipovichi district] (* <- lang_en;; *);;
+
+ostrovetsky_district => nrel_main_idtf:
+	[Островецкий район] (* <- lang_ru;; *);
+	[Ostrovetsky district] (* <- lang_en;; *);;
+
+oshmyany_district => nrel_main_idtf:
+	[Ошмянский район] (* <- lang_ru;; *);
+	[Oshmyany district] (* <- lang_en;; *);;
+
+partizansky_district => nrel_main_idtf:
+	[Партизанский район] (* <- lang_ru;; *);
+	[Partizansky district] (* <- lang_en;; *);;
+
+pervomaisky_district => nrel_main_idtf:
+	[Первомайский район] (* <- lang_ru;; *);
+	[Pervomaisky district] (* <- lang_en;; *);;
+
+petrikov_district => nrel_main_idtf:
+	[Петриковский район] (* <- lang_ru;; *);
+	[Petrikov district] (* <- lang_en;; *);;
+
+pinsk_district => nrel_main_idtf:
+	[Пинский район] (* <- lang_ru;; *);
+	[Pinsk district] (* <- lang_en;; *);;
+
+polotsk_district => nrel_main_idtf:
+	[Полоцкий район] (* <- lang_ru;; *);
+	[Polotsk district] (* <- lang_en;; *);;
+
+pastavy_district => nrel_main_idtf:
+	[Поставский район] (* <- lang_ru;; *);
+	[Pastavy district] (* <- lang_en;; *);;  
+
+pruzany_district => nrel_main_idtf:
+	[Пружанский район] (* <- lang_ru;; *);
+	[Pruzany district] (* <- lang_en;; *);;
+
+puhovichi_district => nrel_main_idtf:
+	[Пуховичский район] (* <- lang_ru;; *);
+	[Puhovichi  district] (* <- lang_en;; *);;
+
+rechitsky_district => nrel_main_idtf:
+	[Речицкий район] (* <- lang_ru;; *);
+	[Rechitsky district] (* <- lang_en;; *);;
+
+rogachevkiy_district => nrel_main_idtf:
+	[Рогачевский район] (* <- lang_ru;; *);
+	[Rogachevkiy district] (* <- lang_en;; *);;
+
+rossonsky_district => nrel_main_idtf:
+	[Россонский район] (* <- lang_ru;; *);
+	[rossonsky district] (* <- lang_en;; *);;
+
+svetlogorsk_district => nrel_main_idtf:
+	[Светлогорский  район] (* <- lang_ru;; *);
+	[Svetlogorsk district] (* <- lang_en;; *);;
+
+svisloch_district => nrel_main_idtf:
+	[Свислочский  район] (* <- lang_ru;; *);
+	[Svisloch district] (* <- lang_en;; *);;
+
+senno_district => nrel_main_idtf:
+	[Сенненский район] (* <- lang_ru;; *);
+	[Senno district] (* <- lang_en;; *);;
+
+slavgorod_district => nrel_main_idtf:
+	[Славгородский район] (* <- lang_ru;; *);
+	[Slavgorod district] (* <- lang_en;; *);;
+
+slonim_district => nrel_main_idtf:
+	[Слонимский район] (* <- lang_ru;; *);
+	[Slonim district] (* <- lang_en;; *);;
+
+slutsk_district => nrel_main_idtf:
+	[Слуцкий район] (* <- lang_ru;; *);
+	[Slutsk  district] (* <- lang_en;; *);;
+
+smolevichi_district => nrel_main_idtf:
+	[Смолевичский район] (* <- lang_ru;; *);
+	[Smolevichi  district] (* <- lang_en;; *);;
+
+smorgon_district => nrel_main_idtf:
+	[Сморгонский район] (* <- lang_ru;; *);
+	[Smorgon  district] (* <- lang_en;; *);;
+
+sovetsky_district => nrel_main_idtf:
+	[Советский район] (* <- lang_ru;; *);
+	[Sovetsky District] (* <- lang_en;; *);;
+
+soligorsk_district => nrel_main_idtf:
+	[Солигорский район] (* <- lang_ru;; *);
+	[Soligorsk District] (* <- lang_en;; *);;
+
+starye_dorogi_district => nrel_main_idtf:
+	[Стародорожский район] (* <- lang_ru;; *);
+	[Starye Dorogi  district] (* <- lang_en;; *);;
+
+stolbtsovsk_district => nrel_main_idtf:
+	[Столбцовский район] (* <- lang_ru;; *);
+	[Stolbtsovsky district] (* <- lang_en;; *);;
+
+stolin_district => nrel_main_idtf:
+	[Столинский район] (* <- lang_ru;; *);
+	[Stolin district] (* <- lang_en;; *);;
+
+tolochin_district => nrel_main_idtf:
+	[Толочинский район] (* <- lang_ru;; *);
+	[Tolochin district] (* <- lang_en;; *);;
+
+uzdenskiy_district => nrel_main_idtf:
+	[Узденский район] (* <- lang_ru;; *);
+	[Uzdenskiy district] (* <- lang_en;; *);;
+
+ushachski_district => nrel_main_idtf:
+	[Ушачский район] (* <- lang_ru;; *);
+	[Ushachski district] (* <- lang_en;; *);;
+
+frunze_district => nrel_main_idtf:
+	[Фрунзенский район] (* <- lang_ru;; *);
+	[Frunze district] (* <- lang_en;; *);;
+
+khoiniki_district => nrel_main_idtf:
+	[Хойницкий район] (* <- lang_ru;; *);
+	[Khoiniki district] (* <- lang_en;; *);;
+
+khotimsky_district => nrel_main_idtf:
+	[Хотимский район] (* <- lang_ru;; *);
+	[Khotimsky district] (* <- lang_en;; *);;
+
+central_district => nrel_main_idtf:
+	[Центральный район] (* <- lang_ru;; *);
+	[Central district] (* <- lang_en;; *);;
+
+chausy_district => nrel_main_idtf:
+	[Чаусовский район] (* <- lang_ru;; *);
+	[Chausy district] (* <- lang_en;; *);;
+
+chashniksky_district => nrel_main_idtf:
+	[Чашникский район] (* <- lang_ru;; *);
+	[Chashniksky district] (* <- lang_en;; *);;
+
+chervenskiy_district => nrel_main_idtf:
+	[Червенский район] (* <- lang_ru;; *);
+	[Chervenskiy district] (* <- lang_en;; *);;
+
+cherikov_district => nrel_main_idtf:
+	[Чериковский район] (* <- lang_ru;; *);
+	[Cherikov district] (* <- lang_en;; *);;
+
+chechersk_district => nrel_main_idtf:
+	[Чечерский район] (* <- lang_ru;; *);
+	[Chechersk district] (* <- lang_en;; *);;
+
+sharkovshchina_district => nrel_main_idtf:
+	[Шарковщинский район] (* <- lang_ru;; *);
+	[Sharkovshchina district] (* <- lang_en;; *);;
+
+shklov_district => nrel_main_idtf:
+	[Шкловский район] (* <- lang_ru;; *);
+	[Shklov district] (* <- lang_en;; *);;
+
+shumilinsky_district => nrel_main_idtf:
+	[Шумилинский район] (* <- lang_ru;; *);
+	[Shumilinsky district] (* <- lang_en;; *);;
+
+shchuchinsky_district => nrel_main_idtf:
+	[Щучинский  район] (* <- lang_ru;; *);
+	[Shchuchinsky district] (* <- lang_en;; *);;
+
+residential => nrel_main_idtf:
+	[жилой] (* <- lang_ru;; *);
+	[residential] (* <- lang_en;; *);;
+
+uninhabited => nrel_main_idtf:
+	[нежилой] (* <- lang_ru;; *);
+	[uninhabited] (* <- lang_en;; *);;
+
+district_center => nrel_main_idtf:
+	[районный центр] (* <- lang_ru;; *);
+	[district center] (* <- lang_en;; *);;
+
+regional_center => nrel_main_idtf:
+	[областной центр] (* <- lang_ru;; *);
+	[regional center] (* <- lang_en;; *);;
+
+acof_village_council => nrel_main_idtf:
+	[административный центр сельсовета] (* <- lang_ru;; *);
+	[the administrative center of the village council] (* <- lang_en;; *);;
+
+agrogorodok => nrel_main_idtf:
+	[агрогородок] (* <- lang_ru;; *);
+	[agrogorodok] (* <- lang_en;; *);;
+
+urban_settlement => nrel_main_idtf:
+	[городской поселок] (* <- lang_ru;; *);
+	[urban settlement] (* <- lang_en;; *);;
+
+village_council => nrel_main_idtf:
+	[сельсовет] (* <- lang_ru;; *);
+	[village council] (* <- lang_en;; *);;
+
+village => nrel_main_idtf:
+	[деревня] (* <- lang_ru;; *);
+	[village] (* <- lang_en;; *);;
+
+settlement => nrel_main_idtf:
+	[посёлок] (* <- lang_ru;; *);
+	[settlement] (* <- lang_en;; *);;
+
+no_administrative_value => nrel_main_idtf:
+	[не имеет политико-административного значения] (* <- lang_ru;; *);
+	[has no politics-administrative value] (* <- lang_en;; *);;
+

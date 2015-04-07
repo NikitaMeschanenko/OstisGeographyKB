@@ -1,0 +1,27 @@
+sc_node_struct -> hotlyany;;
+
+hotlyany=> nrel_main_idtf: 
+	[Хотляны] 
+    (* 
+    <- lang_ru;; 
+    *);
+    [Hotlyany] 
+    (* 
+    <- lang_en;; 
+    *);;
+
+
+
+hotlyany => nrel_population: [1053];;
+
+hotlyany => nrel_region: minsk_region;;
+
+hotlyany => nrel_district: uzdenskiy_district;;
+
+hotlyany => nrel_state: residential;;
+
+hotlyany => nrel_politic: village;;
+
+hotlyany => nrel_postcode: [223414];;
+
+hotlyany => nrel_code_soato:[6256817186] ;;

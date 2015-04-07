@@ -1,0 +1,11 @@
+arachnidsrb
+=> nrel_main_idtf: [паукообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [arachnids] (* <- lang_en;; *);;
+
+mammalsrb => nrel_parts:
+spidersrb
+;;
+
+spidersrb
+=> nrel_main_idtf: [пауки] (* <- lang_ru;; *);
+=> nrel_main_idtf: [spiders] (* <- lang_en;; *);;

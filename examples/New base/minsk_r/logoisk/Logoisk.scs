@@ -1,0 +1,39 @@
+sc_node_struct -> logoisk;;
+
+logoisk => nrel_main_idtf:
+	[Логойск]
+	(*
+	<- lang_ru;;
+	*);
+	[Logoisk]
+	(*
+	<- lang_en;;
+	*);;
+
+logoisk => nrel_region: minsk_region;;
+
+logoisk => nrel_district: logoisk_district;;
+
+logoisk => nrel_state: residential;;
+
+logoisk => nrel_politic: district_center;;
+
+logoisk=> nrel_date: [1078];;
+
+logoisk => nrel_population: [11000];;
+
+logoisk => nrel_postcode: [223141];;
+
+logoisk => nrel_code_soato:[6232501000];;
+
+logoisk <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://134684287527102-i0.png";;
+			*);; 
+	*);; 

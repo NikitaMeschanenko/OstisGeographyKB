@@ -1,0 +1,39 @@
+sc_node_struct -> krupki;;
+
+krupki => nrel_main_idtf:
+	[Крупки]
+	(*
+	<- lang_ru;;
+	*);
+	[Krupki]
+	(*
+	<- lang_en;;
+	*);;
+
+krupki => nrel_region: minsk_region;;
+
+krupki => nrel_district: krupki_district;;
+
+krupki => nrel_state: residential;;
+
+krupki => nrel_politic: district_center;;
+
+krupki=> nrel_date: [1575];;
+
+krupki => nrel_population: [8675];;
+
+krupki => nrel_postcode: [223001] ;;
+
+krupki => nrel_code_soato:[6230501000] ;;
+
+krupki <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						"file://krupki.png";;
+			*);; 
+	*);; 

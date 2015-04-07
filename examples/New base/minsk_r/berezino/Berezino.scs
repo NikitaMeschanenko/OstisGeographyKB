@@ -1,0 +1,67 @@
+sc_node_struct -> berezino;;
+
+berezino => nrel_main_idtf:
+	[Березино]
+	(*
+	<- lang_ru;;
+	*);
+	[Berezino]
+	(*
+	<- lang_en;;
+	*);;
+
+berezino => nrel_region: minsk_region;;
+
+berezino => nrel_district: berezino_district;;
+
+berezino => nrel_state: residential;;
+
+berezino => nrel_politic: district_center;;
+
+berezino => nrel_population: [11997];;
+
+berezino => nrel_date: [1501];;
+
+berezino => nrel_postcode: [223311];;
+
+berezino => nrel_code_soato: [6204501000];;
+
+berezino => nrel_presence_of_rivers: berezina;;
+
+berezino <= nrel_health_care:
+	{
+	Berezino_central_regional_hospital
+	};;
+
+berezino <= nrel_education:
+	{
+	Primary_school_1_of_Berezino;
+	High_school_2_of_Berezino;
+	High_school_3_of_Berezino;
+	Berezino_Gymnasium
+	};;
+
+berezino <= nrel_industry:
+	{
+	Ltd_Biomolprom;
+	Berezino_distillery;
+	Berezino_flax;
+	Berezino_Cheese_Factory;
+	Berezino_factory_bakery_products
+};;
+
+berezino <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://ch_build0008_d162.png";;
+			*);; 
+	*);;
+
+
+
+

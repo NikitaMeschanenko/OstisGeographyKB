@@ -1,0 +1,30 @@
+sc_node_struct -> vitebsk_region;;
+
+vitebsk_region => nrel_population: [1369000];;
+
+vitebsk_region => nrel_code_soato: [2000000000];;
+
+vitebsk_region <= nrel_politico_administrative_division:
+	{
+	beshenkovichi_district;
+	braslavsky_district;
+	verkhnedvinsky_district;
+	vitebsk_district;
+	glubokoye_district;
+	gorodokskoy_district;
+	dokshitsy_district;
+	dubrovno_district;
+	lepel_district;
+	lioznensky_district;
+	miorsky_district;
+	orsha_district;
+	polotsk_district;
+	pastavy_district;
+	rossonsky_district;
+	senno_district;
+	tolochin_district;
+	ushachski_district;
+	chashniksky_district;
+	sharkovshchina_district;
+	shumilinsky_district
+	};;

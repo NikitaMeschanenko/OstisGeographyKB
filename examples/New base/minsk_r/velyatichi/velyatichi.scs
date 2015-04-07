@@ -1,0 +1,37 @@
+sc_node_struct -> velyatichi;;
+
+velyatichi => nrel_main_idtf:
+	[Велятичи]
+	(*
+	<- lang_ru;;
+	*);
+	[Velyatichi]
+	(*
+	<- lang_en;;
+	*);;
+
+velyatichi => nrel_region: minsk_region;;
+
+velyatichi => nrel_district: borisov_district;;
+
+velyatichi => nrel_state: residential;;
+
+velyatichi => nrel_politic: district_center;;
+
+velyatichi => nrel_postcode: [222124];;
+
+velyatichi => nrel_population: [1388];;
+
+velyatichi => nrel_code_soato:[6208808016];;
+
+velyatichi <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://verb_vyal_13_14.png";;
+			*);; 
+	*);; 

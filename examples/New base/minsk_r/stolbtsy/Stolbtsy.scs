@@ -1,0 +1,39 @@
+sc_node_struct -> stolbtsy;;
+
+stolbtsy => nrel_main_idtf:
+	[Столбцы]
+	(*
+	<- lang_ru;;
+	*);
+	[Stolbtsy]
+	(*
+	<- lang_en;;
+	*);;
+
+stolbtsy => nrel_region: minsk_region;;
+
+stolbtsy => nrel_district: stolbtsovsk_district;;
+
+stolbtsy => nrel_state: residential;;
+
+stolbtsy => nrel_politic: district_center;;
+
+stolbtsy => nrel_date: [1593];;
+
+stolbtsy => nrel_population: [15991];;
+
+stolbtsy => nrel_postcode: [222666];;
+
+stolbtsy => nrel_code_soato: [6254501000];;
+
+stolbtsy <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://209465134.png";;
+			*);; 
+	*);; 

@@ -1,0 +1,30 @@
+sc_node_struct -> mogilev_region;;
+
+mogilev_region => nrel_population: [1095000];;
+
+mogilev_region => nrel_code_soato: [7000000000];;
+
+mogilev_region <= nrel_politico_administrative_division:
+	{
+	belynichi_district;
+	bobruisk_district;
+	byhov_district;
+	glusk_district;
+	gorki_district;
+	dribin_district;
+	kirov_district;
+	klimovichi_district;
+	klichev_district;
+	kostukovichi_district;
+	krasnopole_district;
+	krichev_district;
+	krugloe_district;
+	mogilev_district;
+	mstislavl_district;
+	osipovichi_district;
+	slavgorod_district;
+	khotimsky_district;
+	chausy_district;
+	cherikov_district;
+	shklov_district
+	};;

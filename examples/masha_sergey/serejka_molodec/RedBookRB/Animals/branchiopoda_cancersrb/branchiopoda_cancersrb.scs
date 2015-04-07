@@ -1,0 +1,11 @@
+branchiopoda_cancersrb
+=> nrel_main_idtf: [жаброногие раки] (* <- lang_ru;; *);
+=> nrel_main_idtf: [branchiopoda_cancers] (* <- lang_en;; *);;
+
+branchiopoda_cancersrb => nrel_parts:
+anostracarb
+;;
+
+anostracarb
+=> nrel_main_idtf: [жаброноги] (* <- lang_ru;; *);
+=> nrel_main_idtf: [anostraca] (* <- lang_en;; *);;

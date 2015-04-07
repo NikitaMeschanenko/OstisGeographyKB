@@ -1,0 +1,35 @@
+sc_node_struct -> borovoe;;
+
+borovoe => nrel_main_idtf:
+	[Боровое]
+	(*
+	<- lang_ru;;
+	*);
+	[Borovoe]
+	(*
+	<- lang_en;;
+	*);;
+
+borovoe => nrel_region: minsk_region;;
+
+borovoe => nrel_district: dzerjinsk_district;;
+
+borovoe => nrel_state: residential;;
+
+borovoe => nrel_politic: agrogorodok;;
+
+borovoe => nrel_population: [500];;
+
+borovoe => nrel_date: [1590];;
+
+borovoe <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://medzbara01-01.png";;
+			*);; 
+	*);; 

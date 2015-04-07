@@ -1,0 +1,11 @@
+Belynichi_CDH => nrel_main_idtf:
+	[УЗ «Белыничская ЦРБ»] (* <- lang_ru;; *);
+	[UZ "Belynichi CDH"] (* <- lang_en;; *);;
+
+Belynichi_District_Centre_of_Hygiene_and_Epidemiology => nrel_main_idtf:
+	[УЗ «Белыничский районный центр гигиены и эпидемиологии»] (* <- lang_ru;; *);
+	[UZ "Belynichi District Centre of Hygiene and Epidemiology"] (* <- lang_en;; *);;
+
+Berezino_central_regional_hospital => nrel_main_idtf:
+	[УЗ «Березинская центральная районная больница»] 	(* <- lang_ru;; *);
+	[UZ "Berezino central regional hospital"] (* <- lang_en;; *);;

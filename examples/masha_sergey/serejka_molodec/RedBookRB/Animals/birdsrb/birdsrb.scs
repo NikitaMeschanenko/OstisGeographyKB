@@ -1,0 +1,66 @@
+birdsrb
+=> nrel_main_idtf: [птицы] (* <- lang_ru;; *);
+=> nrel_main_idtf: [birdsrb] (* <- lang_en;; *);;
+
+birdsrb => nrel_parts:
+ciconiiformesrb;
+passerinesrb;
+gagaroobraznyerb;
+waterfowlrb;
+woodpeckersrb;
+gruiformesrb;
+galliformesrb;
+pogankoobraznyerb;
+coraciiformesrb;
+charadriiformesrb;
+owlsrb;
+falconiformesrb
+;;
+
+ciconiiformesrb
+=> nrel_main_idtf: [аистообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [ciconiiformes] (* <- lang_en;; *);;
+
+passerinesrb
+=> nrel_main_idtf: [воробьинообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [passerines] (* <- lang_en;; *);;
+
+gagaroobraznyerb
+=> nrel_main_idtf: [гагарообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [gagaroobraznye] (* <- lang_en;; *);;
+
+waterfowlrb
+=> nrel_main_idtf: [гусеобразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [waterfowl] (* <- lang_en;; *);;
+
+woodpeckersrb
+=> nrel_main_idtf: [дятлообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [woodpeckers] (* <- lang_en;; *);;
+
+gruiformesrb
+=> nrel_main_idtf: [журавлеобразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [gruiformes] (* <- lang_en;; *);;
+
+galliformesrb
+=> nrel_main_idtf: [курообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [galliformes] (* <- lang_en;; *);;
+
+pogankoobraznyerb
+=> nrel_main_idtf: [поганкообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [pogankoobraznye] (* <- lang_en;; *);;
+
+coraciiformesrb
+=> nrel_main_idtf: [ракшеобразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [coraciiformes] (* <- lang_en;; *);;
+
+charadriiformesrb
+=> nrel_main_idtf: [ржанкообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [charadriiformes] (* <- lang_en;; *);;
+
+owlsrb
+=> nrel_main_idtf: [совообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [owls] (* <- lang_en;; *);;
+
+falconiformesrb
+=> nrel_main_idtf: [соколообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [falconiformes] (* <- lang_en;; *);;

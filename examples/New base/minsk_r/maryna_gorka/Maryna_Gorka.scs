@@ -1,0 +1,41 @@
+sc_node_struct -> maryna_gorka;;
+
+maryna_gorka => nrel_main_idtf:
+	[Марьина горка]
+	(*
+	<- lang_ru;;
+	*);
+	[Maryna Gorka]
+	(*
+	<- lang_en;;
+	*);;
+
+maryna_gorka => nrel_region: minsk_region;;
+
+maryna_gorka => nrel_district: puhovichi_district;;
+
+maryna_gorka => nrel_state: residential;;
+
+maryna_gorka => nrel_politic: district_center;;
+
+maryna_gorka => nrel_date: [1600];;
+
+maryna_gorka => nrel_population: [21285];;
+
+maryna_gorka => nrel_postcode: [222810];;
+
+maryna_gorka => nrel_code_soato: [6244501000];;
+
+maryna_gorka => nrel_square: [8,2];;
+
+maryna_gorka <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://marina_gorka.png";;
+			*);; 
+	*);; 

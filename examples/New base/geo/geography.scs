@@ -1,0 +1,45 @@
+sc_node_struct -> geography_RB;;
+
+geography_RB => nrel_main_idtf:
+	[География Республики Беларусь]	(*	<- lang_ru;;	*);
+	[Geography of the Republic of Belarus]	(*	<- lang_en;;	*);;
+
+geography_RB <= nrel_decomposition:
+	{
+	total_geographic_characteristics;
+	geological_structure_subsoil_assets;
+	topography_geomorphology;
+	climatic_conditions;
+	surface_waters;
+	soils_land_resources;
+	vegetation;
+	animal_world;
+	landscapes;
+	environmental_situation;
+	condition_territory;
+	population;
+	industry;
+	agriculture;
+	transport;
+	social_services_living_conditions;
+	education_science_culture_sports;
+	external_communications
+	};;
+
+geography_RB <= nrel_politico_administrative_division:
+	{
+	brest_region;
+	vitebsk_region;
+	gomel_region;
+	grodno_region;
+	minsk_region;
+	minsk;
+	mogilev_region
+	};;
+	
+
+geography_RB => nrel_foto_gimn:  "file://gimn.jpg";;
+
+geography_RB => nrel_foto_flag:   "file://flag.jpg";;
+
+geography_RB => nrel_foto_gerb:    "file://89336_html_554527a3.png";;

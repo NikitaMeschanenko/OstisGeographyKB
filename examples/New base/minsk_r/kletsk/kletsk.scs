@@ -1,0 +1,39 @@
+sc_node_struct -> kletsk;;
+
+kletsk => nrel_main_idtf:
+	[Клецк]
+	(*
+	<- lang_ru;;
+	*);
+	[Kletsk]
+	(*
+	<- lang_en;;
+	*);;
+
+kletsk => nrel_region: minsk_region;;
+
+kletsk => nrel_district: kletsk_district;;
+
+kletsk => nrel_state: residential;;
+
+kletsk => nrel_politic: district_center;;
+
+kletsk => nrel_date: [1127];;
+
+kletsk => nrel_population: [10200];;
+
+kletsk => nrel_postcode: [222531];;
+
+kletsk => nrel_code_soato:[6225501000];;
+
+kletsk <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://kletsk.png";;
+			*);; 
+	*);; 

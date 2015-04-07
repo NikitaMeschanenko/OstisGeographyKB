@@ -1,0 +1,30 @@
+sc_node_struct -> gomel_region;;
+
+gomel_region => nrel_population: [431000];;
+
+gomel_region => nrel_code_soato: [3000000000];;
+
+gomel_region <= nrel_politico_administrative_division:
+	{
+	bragin_district;
+	buda_kosleheva_district;
+	vetka_district;
+	gomel_district;
+	dobrush_district;
+	elsk_district;
+	zhitkovichi_district;
+	jlobin_district;
+	kalinkovichi_district;
+	korma_district;
+	lelchitsy_district;
+	loev_district;
+	mozyr_district;
+	narovlya_district;
+	october_district;
+	petrikov_district;
+	rechitsky_district;
+	rogachevkiy_district;
+	svetlogorsk_district;
+	khoiniki_district;
+	chechersk_district
+	};;

@@ -1,0 +1,21 @@
+higher_crustaceansrb
+=> nrel_main_idtf: [высшие ракообразные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [higher_crustaceans] (* <- lang_en;; *);;
+
+higher_crustaceansrb => nrel_parts:
+amphipodsrb;
+decapodrb;
+mysidsrb 
+;;
+
+amphipodsrb
+=> nrel_main_idtf: [бокоплавы] (* <- lang_ru;; *);
+=> nrel_main_idtf: [amphipods] (* <- lang_en;; *);;
+
+decapodrb
+=> nrel_main_idtf: [десятиногие] (* <- lang_ru;; *);
+=> nrel_main_idtf: [decapod] (* <- lang_en;; *);;
+
+mysidsrb 
+=> nrel_main_idtf: [мизиды] (* <- lang_ru;; *);
+=> nrel_main_idtf: [mysids] (* <- lang_en;; *);;

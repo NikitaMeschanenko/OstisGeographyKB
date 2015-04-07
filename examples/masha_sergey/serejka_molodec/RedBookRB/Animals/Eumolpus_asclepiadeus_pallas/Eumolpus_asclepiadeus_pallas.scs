@@ -1,0 +1,67 @@
+sc_node_struct -> Eumolpus_asclepiadeus_pallas;;
+
+Eumolpus_asclepiadeus_pallas => nrel_main_idtf: 
+	[АСКЛЕПИЕВЫЙ ЛИСТОЕД] 
+	(*
+	 <- lang_ru;;
+	 *);
+	[Eumolpus asclepiadeus pallas]
+	(*
+	<- lang_lat;;
+	*);;
+
+Eumolpus_asclepiadeus_pallas => nrel_category: INSECTA;;
+Eumolpus_asclepiadeus_pallas => nrel_detachment: COLEOPTERA;;
+Eumolpus_asclepiadeus_pallas => nrel_kind: CHRYSOMELIDAE_kind
+(*
+=> nrel_main_idtf: [ЛИСТОЕДЫ (семейство)] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [CHRYSOMELIDAE (kind)] (* <- lang_lat;; *);;
+*);;
+Eumolpus_asclepiadeus_pallas => nrel_species: [ЛИСТОЕДЫ];; 
+Eumolpus_asclepiadeus_pallas => nrel_protection_category: category_3;; 
+Eumolpus_asclepiadeus_pallas => nrel_date_of_entry: [1981];; 
+
+Eumolpus_asclepiadeus_pallas => nrel_spreading:
+[ Южная Европа, Литва, южная Беларусь, Украина, Кавказ, Казахстан, юг Западной Сибири. В Беларуси неоднократно был обнаружен в Мозырском р-не];;
+
+Eumolpus_asclepiadeus_pallas => nrel_habitat:
+[ Жуки встречаются в пойменных биотопах на ваточнике (Asclepias) и ластовне (Vincetoxicum), на корнях которых питается личинка этого вида.];;
+
+Eumolpus_asclepiadeus_pallas => nrel_major_threats:
+[ Осушение и хозяйственное освоение пойменных земель.];;
+
+Eumolpus_asclepiadeus_pallas => nrel_amount_tendencies:
+[ Малочисленный вид, единично встречающийся почти ежегодно.];;
+
+Eumolpus_asclepiadeus_pallas => nrel_description:  //длина тела //вес //размах крыльев //хвост //в холке //окрас
+[ Крупный жук (длина тела 8-10 мм). Верх синий с металлическим блеском, ноги и усики черные, низ черно-зеленый. Голени с зубцами у вершины.];;
+
+Eumolpus_asclepiadeus_pallas => nrel_biology:
+[ Редкий локальный вид, находящийся близ северной границы ареала.];;
+
+Eumolpus_asclepiadeus_pallas <-rrel_key_sc_element:
+	...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			"file://1.jpeg";;
+		*);;
+	*);;
+
+Eumolpus_asclepiadeus_pallas <-rrel_key_sc_element:
+	...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			"file://2.jpeg";;
+		*);;
+	*);;
+
+Eumolpus_asclepiadeus_pallas => nrel_protection_measures:
+[ Вид включен во 2-е издание Красной книги Республики Беларусь (III категория). Необходимо изучение возможных мест обитания на территории Полесья и динамики численности.];;

@@ -1,0 +1,41 @@
+sc_node_struct -> soligorsk;;
+
+soligorsk => nrel_main_idtf:
+	[Солигорск]
+	(*
+	<- lang_ru;;
+	*);
+	[Soligorsk]
+	(*
+	<- lang_en;;
+	*);;
+
+soligorsk => nrel_region: minsk_region;;
+
+soligorsk => nrel_district: soligorsk_district;;
+
+soligorsk => nrel_state: residential;;
+
+soligorsk => nrel_politic: district_center;;
+
+soligorsk => nrel_date: [1958];;
+
+soligorsk => nrel_population: [104745];;
+
+soligorsk => nrel_postcode: [223710];;
+
+soligorsk => nrel_code_soato: [6430000000];;
+
+soligorsk => nrel_square: [9,19];;
+
+belynichi <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://samye-chistye-goroda-soligorsk-i-kopyl_1.png";;
+			*);; 
+	*);; 

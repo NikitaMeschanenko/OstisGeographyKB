@@ -1,0 +1,19 @@
+ui_menu_file_for_finding_max_population <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_max_population => nrel_main_idtf: 
+	[Запрос поиска города с максимальным населением] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_max_population => ui_nrel_command_template:
+	[*
+		question_of_finding_max_population _-> ._question_of_finding_max_population_instance
+			(*
+			_-> ui_arg_1;;				
+			*);;
+		._question_of_finding_max_population_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_max_population => ui_nrel_command_lang_template: 
+	[Запрос города с максимальным населением: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+

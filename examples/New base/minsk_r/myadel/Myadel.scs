@@ -1,0 +1,39 @@
+sc_node_struct -> myadel;;
+
+myadel => nrel_main_idtf:
+	[Мядель]
+	(*
+	<- lang_ru;;
+	*);
+	[Myadel]
+	(*
+	<- lang_en;;
+	*);;
+
+myadel  => nrel_region: minsk_region;;
+
+myadel  => nrel_district: myadel_district;;
+
+myadel  => nrel_state: residential;;
+
+myadel  => nrel_politic: district_center;;
+
+myadel  => nrel_date: [1324];;
+
+myadel  => nrel_population: [7100];;
+
+myadel  => nrel_postcode: [222397];;
+
+myadel  => nrel_code_soato: [6240501000];;
+
+myadel <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://P8031793.png";;
+			*);; 
+	*);; 

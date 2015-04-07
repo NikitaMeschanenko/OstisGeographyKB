@@ -1,0 +1,26 @@
+sc_node_struct -> grodno_region;;
+
+grodno_region => nrel_population: [379000];;
+
+grodno_region => nrel_code_soato: [4000000000];;
+
+grodno_region <= nrel_politico_administrative_division:
+	{
+	berestovitskiy_district;
+	volkoviskiy_district;
+	voronovskiy_district;
+	grodno_district;
+	dyatlovskiy_district;
+	zelvenskiy_district;
+	ivievskiy_district;
+	korelichskiy_district;
+	lida_district;
+	mostovsky_district;
+	novogrudsky_district;
+	ostrovetsky_district;
+	oshmyany_district;
+	svisloch_district;
+	slonim_district;
+	smorgon_district;
+	shchuchinsky_district
+	};;

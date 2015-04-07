@@ -1,0 +1,24 @@
+sc_node_struct -> lysaya_mountain;;
+
+lysaya_mountain => nrel_main_idtf:
+[Лысая гора]
+	(* 
+	<- lang_ru;; 
+	*);
+[Lysaya mountain] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+mountain -> lysaya_mountain;;
+
+lysaya_mountain => nrel_region: minsk_region;;
+
+lysaya_mountain => nrel_district: minsk_district;;
+
+lysaya_mountain => nrel_height : [342];;
+
+lysaya_mountain => nrel_meaning: [Водораздел бассейнов Балтийского и Черного морей];;
+
+lysaya_mountain => nrel_text_discription: 
+[ Гора сложена мореновыми суглинками. Склоны возвышенности покрыты лугами, частью — лесом или кустарником. Почвы подвержены эрозии.];;

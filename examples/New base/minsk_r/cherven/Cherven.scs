@@ -1,0 +1,39 @@
+sc_node_struct -> cherven;;
+
+cherven => nrel_main_idtf:
+	[Червень]
+	(*
+	<- lang_ru;;
+	*);
+	[Cherven]
+	(*
+	<- lang_en;;
+	*);;
+
+cherven => nrel_region: minsk_region;;
+
+cherven => nrel_district: chervenskiy_district;;
+
+cherven => nrel_state: residential;;
+
+cherven => nrel_politic: district_center;;
+
+cherven => nrel_date: [1387];;
+
+cherven => nrel_population: [9800];;
+
+cherven => nrel_postcode: [223232];;
+
+cherven => nrel_code_soato:[6258501000];;
+
+cherven <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://f5ece6475bf8.png";;
+			*);; 
+	*);; 

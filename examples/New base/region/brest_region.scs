@@ -1,0 +1,25 @@
+sc_node_struct -> brest_region;;
+
+brest_region => nrel_population: [1485000];;
+
+brest_region => nrel_code_soato: [1000000000];;
+
+brest_region <= nrel_politico_administrative_division:
+	{
+	baranovichi_district;
+	berezino_district;
+	brest_district;
+	gantsevichi_district;
+	drogichinsky_district;
+	zhabinka_district;
+	ivanovo_district;
+	ivacevichi_district;
+	kamenetz_district;
+	kobrin_district;
+	luninec_district;
+	lyahovichi_district;
+	malorita_district;
+	pinsk_district;
+	pruzany_district;
+	stolin_district
+	};;

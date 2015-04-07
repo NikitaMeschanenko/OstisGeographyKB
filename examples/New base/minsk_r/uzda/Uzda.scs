@@ -1,0 +1,39 @@
+sc_node_struct -> uzda ;;
+
+uzda  => nrel_main_idtf:
+	[Узда]
+	(*
+	<- lang_ru;;
+	*);
+	[Uzda]
+	(*
+	<- lang_en;;
+	*);;
+
+uzda => nrel_region: minsk_region;;
+
+uzda => nrel_district: uzdenskiy_district;;
+
+uzda => nrel_state: residential;;
+
+uzda => nrel_politic: district_center;;
+
+uzda => nrel_date: [1450];;
+
+uzda => nrel_population: [9684];;
+
+uzda => nrel_postcode: [223411];;
+
+uzda => nrel_code_soato: [6256506000];;
+
+uzda <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://uzda1.png";;
+			*);; 
+	*);; 

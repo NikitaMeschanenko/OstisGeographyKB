@@ -1,0 +1,47 @@
+sc_node_struct->starobin;;
+starobin => nrel_main_idtf:
+[Старобин]
+(*
+<- lang_ru;;
+*);
+[Starobini]
+(*
+<- lang_en;;
+*);;
+
+starobin => nrel_population: [5755];;
+
+starobin => nrel_region: minsk_region;;
+
+
+starobin => nrel_district: soligorsk_district;; 
+
+
+starobin => nrel_locality: starobin_locality;;
+
+
+starobin => nrel_state: residential;;
+
+
+starobin => nrel_politic: urban_settlement;;
+
+
+starobin <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://starobin.jpg";;
+			*);; 
+	*);;  
+
+starobin => nrel_date: [1600];;
+
+starobin => nrel_postcode: [223730] ;;
+
+starobin => nrel_code_soato:[6250562000] ;;
+
+

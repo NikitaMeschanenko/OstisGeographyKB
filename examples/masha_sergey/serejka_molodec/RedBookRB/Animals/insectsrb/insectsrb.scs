@@ -1,0 +1,41 @@
+insectsrb
+=> nrel_main_idtf: [насекомые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [insects] (* <- lang_en;; *);;
+
+insectsrb => nrel_parts:
+beetlesrb;
+hymenopterarb;
+mayflyrb;
+hemipterarb;
+orthopteransrb;
+dragonfliesrb;
+lepidopterarb
+;;
+
+beetlesrb
+=> nrel_main_idtf: [жесткокрылые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [beetlesrb] (* <- lang_en;; *);;
+
+hymenopterarb
+=> nrel_main_idtf: [перепончатокрылые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [hymenoptera] (* <- lang_en;; *);;
+
+mayflyrb
+=> nrel_main_idtf: [поденки] (* <- lang_ru;; *);
+=> nrel_main_idtf: [mayfly] (* <- lang_en;; *);;
+
+hemipterarb
+=> nrel_main_idtf: [полужесткокрылые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [hemiptera] (* <- lang_en;; *);;
+
+orthopteransrb
+=> nrel_main_idtf: [прямокрылые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [orthopterans] (* <- lang_en;; *);;
+
+dragonfliesrb
+=> nrel_main_idtf: [cтрекозы] (* <- lang_ru;; *);
+=> nrel_main_idtf: [dragonflies] (* <- lang_en;; *);;
+
+lepidopterarb
+=> nrel_main_idtf: [чешуекрылые] (* <- lang_ru;; *);
+=> nrel_main_idtf: [lepidoptera] (* <- lang_en;; *);;

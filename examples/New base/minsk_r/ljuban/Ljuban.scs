@@ -1,0 +1,39 @@
+sc_node_struct -> ljuban;;
+
+ljuban => nrel_main_idtf:
+	[Любань]
+	(*
+	<- lang_ru;;
+	*);
+	[Ljuban]
+	(*
+	<- lang_en;;
+	*);;
+
+ljuban => nrel_region: minsk_region;;
+
+ljuban => nrel_district: ljuban_district;;
+
+ljuban => nrel_state: residential;;
+
+ljuban => nrel_politic: district_center;;
+
+ljuban => nrel_date: [1566];;
+
+ljuban => nrel_population: [11900];;
+
+ljuban => nrel_postcode: [223812];;
+
+ljuban => nrel_code_soato:[6234501000];;
+
+ljuban <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://Gorod-Lyban-33.jpg";;
+			*);; 
+	*);; 

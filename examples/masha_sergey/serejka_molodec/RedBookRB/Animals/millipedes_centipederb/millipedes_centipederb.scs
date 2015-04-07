@@ -1,0 +1,11 @@
+millipedes_centipederb
+=> nrel_main_idtf: [двупароногие многоножки] (* <- lang_ru;; *);
+=> nrel_main_idtf: [millipedes centipede] (* <- lang_en;; *);;
+
+millipedes_centipederb => nrel_parts:
+millipedes_bronenostsyrb
+;;
+
+millipedes_bronenostsyrb
+=> nrel_main_idtf: [многоножки-броненосцы] (* <- lang_ru;; *);
+=> nrel_main_idtf: [millipedes-bronenostsy] (* <- lang_en;; *);;

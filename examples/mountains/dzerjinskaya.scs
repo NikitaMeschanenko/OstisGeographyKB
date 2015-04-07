@@ -1,0 +1,28 @@
+sc_node_struct -> dzerjynskaya_mountain;;
+
+dzerjynskaya_mountain => nrel_main_idtf:
+[Дзержинская гора]
+	(* 
+	<- lang_ru;; 
+	*);
+[dzerjynskaya mountain] 
+	(* 
+	<- lang_en;; 
+	*);;
+
+mountain -> dzerjynskaya_mountain;;
+
+dzerjynskaya_mountain => nrel_region: minsk_region;;
+
+dzerjynskaya_mountain => nrel_district: minsk_district;;
+
+dzerjynskaya_mountain => nrel_height : [345];;
+
+dzerjynskaya_mountain => nrel_meaning: [Наивысшая точка Республики Беларусь];;
+
+dzerjynskaya_mountain => nrel_text_discription: 
+[ Для сравнения можно отметить, что (на август 2011 года) в Республике Беларусь самые высокие точки - на телевышках (Колодищи, Ушачи, Слониме) - 350 м.
+
+В конце 1990-х годов на горе установлена гранитная плита с надписью на белорусском языке: «Гора Дзержинская. Высшая точка Белоруссии. Высота 345 метров над уровнем моря».
+
+Есть вероятность, что настоящая высшая точка страны (если судить по топографическим картам 1930-80-х гг.) находится метров на 300 севернее от установленного памятника или еще севернее – на искусственной насыпи, на которой расположена радиолокационная станция.];;

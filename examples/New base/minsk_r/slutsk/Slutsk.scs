@@ -1,0 +1,41 @@
+sc_node_struct -> slutsk;;
+
+slutsk => nrel_main_idtf:
+	[Слуцк]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk]
+	(*
+	<- lang_en;;
+	*);;
+
+slutsk => nrel_region: minsk_region;;
+
+slutsk => nrel_district: slutsk_district;;
+
+slutsk => nrel_state: residential;;
+
+slutsk => nrel_politic: district_center;;
+
+slutsk => nrel_date: [1116];;
+
+slutsk => nrel_population: [61436];;
+
+slutsk => nrel_postcode: [223601-223610];;
+
+slutsk => nrel_code_soato: [6425000000];;
+
+slutsk => nrel_square: [24,6];;
+
+slutsk <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://111113.png";;
+			*);; 
+	*);; 

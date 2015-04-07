@@ -1,0 +1,16 @@
+Primary_school_1_of_Berezino => nrel_main_idtf:
+	[ГУО "Начальная школа №1 г. Березино"] (* <- lang_ru;; *);
+	[SEI "Primary school №1 of Berezino"] (* <- lang_en;; *);;
+
+Berezino_distillery => nrel_main_idtf:
+	[ГУО "Средняя школа №2 г. Березино"] (* <- lang_ru;; *);
+	[SEI "High school №2 of Berezino"] (* <- lang_en;; *);;
+
+High_school_3_of_Berezino=> nrel_main_idtf:
+	[ГУО "Средняя школа №3 г. Березино"] (* <- lang_ru;; *);
+	[SEI "High school №3 of Berezino"] (* <- lang_en;; *);;
+
+Berezino_Gymnasium => nrel_main_idtf:
+	[ГУО "Березинская гимназия"] (* <- lang_ru;; *);
+	[SEI "Berezina Gymnasium"] (* <- lang_en;; *);;
+

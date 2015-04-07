@@ -1,0 +1,39 @@
+sc_node_struct -> molodechno;;
+
+molodechno => nrel_main_idtf:
+	[Молодечно]
+	(*
+	<- lang_ru;;
+	*);
+	[Molodechno]
+	(*
+	<- lang_en;;
+	*);;
+
+molodechno => nrel_region: minsk_region;;
+
+molodechno => nrel_district: molodechno_district;;
+
+molodechno => nrel_state: residential;;
+
+molodechno => nrel_politic: district_center;;
+
+molodechno => nrel_date: [1388];;
+
+molodechno => nrel_population: [93802];;
+
+molodechno => nrel_postcode: [222301-222307, 222310];;
+
+molodechno => nrel_code_soato: [6420000000];;
+
+molodechno <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;; 
+		<= nrel_sc_text_translation: 
+		...
+			(*
+				-> rrel_example: 
+						 "file://13243680051aa0d5db7600x399.png";;
+			*);; 
+	*);; 

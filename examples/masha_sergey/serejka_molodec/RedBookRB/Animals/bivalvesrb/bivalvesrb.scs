@@ -1,0 +1,11 @@
+bivalvesrb
+=> nrel_main_idtf: [двустворчатые моллюски] (* <- lang_ru;; *);
+=> nrel_main_idtf: [bivalves] (* <- lang_en;; *);;
+
+bivalvesrb => nrel_parts:
+perlovitsepodobnyerb
+;;
+
+perlovitsepodobnyerb
+=> nrel_main_idtf: [перловицеподобные] (* <- lang_ru;; *);
+=> nrel_main_idtf: [perlovitsepodobnye] (* <- lang_en;; *);;
